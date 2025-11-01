@@ -2,7 +2,7 @@ node('Maven') {
 
     
     def mvnHome = tool 'Maven-3.8.9'
-    def IMAGE_NAME = "sebaiy/python-iti-main-jenkins"
+    def IMAGE_NAME = "sebaiy/python-iti-main-jenkins-scripted"
 
     try {
 
